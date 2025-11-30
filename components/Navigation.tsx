@@ -57,15 +57,6 @@ export const Navigation: React.FC = () => {
                   {link.name}
                 </a>
               ))}
-              <a 
-                href="https://github.com/digital-era/EnterpriseAIMicrosoft" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-slate-400 hover:text-white transition-colors p-2"
-                aria-label="GitHub Repository"
-              >
-                <Github size={20} />
-              </a>
             </div>
           </div>
         </div>
