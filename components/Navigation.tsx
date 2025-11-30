@@ -41,7 +41,7 @@ export const Navigation: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <a href="#" onClick={scrollToTop} className="font-bold text-xl tracking-tighter text-slate-100 hover:opacity-80 transition-opacity">
-              Microst Enterprise<span className="text-brand-500"> AI</span>
+              Microsoft Enterprise<span className="text-brand-500"> AI</span>
             </a>
           </div>
           
