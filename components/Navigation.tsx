@@ -68,23 +68,6 @@ export const Navigation: React.FC = () => {
               </a>
             </div>
           </div>
-          
-          <div className="md:hidden flex items-center gap-4">
-            <a 
-                href="https://github.com/digital-era/EnterpriseAIMicrosoft" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-slate-400 hover:text-white transition-colors"
-            >
-              <Github size={20} />
-            </a>
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-slate-300 hover:text-white p-2"
-            >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
-          </div>
         </div>
       </div>
 
